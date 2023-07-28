@@ -21,7 +21,7 @@ export default function CardSlider({ data, title }) {
   return (
     <Container
       className="flex column"
-      showControls ={showControls }
+      // showControls ={ showControls }
       onMouseEnter={() => setShowControls(true)}
       onMouseLeave={() => setShowControls(false)}
     >

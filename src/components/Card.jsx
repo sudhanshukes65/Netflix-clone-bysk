@@ -12,7 +12,7 @@ import video from "../assets/video.mp4";
 
 
 const Card = (movieData,isLiked= false) => {
-  console.log(movieData);
+  // console.log(movieData);
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const [isHovered, setIsHovered] = useState(false);
